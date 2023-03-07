@@ -1,0 +1,28 @@
+footer{
+  height: 100px;
+  background-image: url("images/bg_footer.jpg");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.facebook{
+  width: 55px;
+  height: 55px;
+  background-image: url("images/button_fb.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.up{
+  width: 43px;
+  height: 45px;
+  background-image: url("images/button_up.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mail{
+  width: 55px;
+  height: 55px;
+  background-image: url("images/button_mail.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
