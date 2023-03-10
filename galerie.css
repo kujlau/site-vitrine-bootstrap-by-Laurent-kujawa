@@ -1,0 +1,25 @@
+.card{
+  border:solid 1px red;
+  border-radius:5px;
+}
+.container-img{
+  border:solid 1px red;
+  border-radius:5px;
+}
+.img-fluid{
+  max-width:520px;
+  height:auto;
+}
+.container-text-list{
+  background-color: #015e05;
+  border-radius: 5px;
+}
+.card-title{
+  background-color: red;
+  border-radius:5px;
+}
+.album{
+  background-color: black;
+  border-radius: 5px;
+  border:solid 1px red;
+}
