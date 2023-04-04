@@ -1,48 +1,244 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-  <title>Sagittarii Liger</title>
+    <title>SL Histoire et activités</title>
     <meta name="description" content="Association de reconstitution médiévale d'archerie. Visant
-        plus précisément le 14ème siècle. découvrez-nous!">
+    plus précisément le 14ème siècle. découvrez-nous!">
     <meta charset="utf-8">
-    <meta name="viewport" content="d=device-d, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="hist_activ.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="icon" href="images/blasicon.png">
   </head>
-  <body>
+  <body class="bg-black">
     <header>
       <nav class="navbar">
-          <div class="container-fluid d-flex justify-content-between p-0">
-            <img src="images/logo-header.png" alt="">  
-            <button class="btn" type="button" data-bs-toggle="collapse" 
-                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-            </button>
-          </div>
+        <div class="container-fluid d-flex justify-content-between p-0">
+          <img src="images/logo-header.png" alt="">  
+          <button class="btn" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+          </button>
+        </div>
       </nav>
       <!--MENU CACHE-->
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-black p-1">
-          <ul class="list-unstyled">
-            <li class="item text-secondary ms-3 mt-1 mb-3">
-              <a class="text-decoration-none text-secondary" href="index.html">ACCUEIL</a>
+          <ul class="list-unstyled text-center">
+            <li class="item text-secondary fs-6 mt-4 mb-5">
+              <a class="text-decoration-none text-danger" href="index.html">ACCUEIL</a>
             </li> 
-            <li class="item text-white ms-4 mb-3">
-              <b><i>HISTOIRE ET ACTIVITES</i></b>
+            <li class="item text-success fs-6 mb-5">
+              <b><i><u>HISTOIRE ET ACTIVITES</u></i></b>
             </li>
-            <li class="item ms-3 mb-3">
-              <a class="text-decoration-none text-secondary" href="evenements.html">EVENEMENTS</a>
-            </li>
-            <li class="item ms-3 mb-3">
-              <a class="text-decoration-none text-secondary" href="galerie.html">GALERIE PHOTOS</a>
-            </li>   
+            <li class="item fs-6">
+              <a class="text-decoration-none text-danger" href="evenements.html">EVENEMENTS</a>
+            </li>  
           </ul>  
         </div>
       </div>
-  </header>
+    </header>
 
+    <main>
+      <div class="col-sm-12 col-md-10 col-lg-8 mx-auto mt-5">
+        <!-- Déclaration du composant -->
+        <div class="card  bg-black border-0 rounded-0 text-center">
+          <!-- Image située en haut -->
+          <div class="container-img mb-5">
+            <img class="img-fluid mx-auto mb-1 mt-1 w-25" src="images/blason.jpg" class="card-img-top" alt="">
+          </div>
+        </div>  
+          <!-- Corps de la carte -->
+        <div class="card-body">
+          <!-- Titre -->
+          <h2 class="card-title text-light p-2 mb-3 text-center"><u>Notre Histoire</u></h2>
+          <div class="container-text-img m-3">
+            <p class="card-text p-2 text-start text-light">
+              &emsp;Notre <em>association à but non lucratif</em> fut créée en 2011 par Thierry Facon sous le nom
+              <em>"Les Archers d'Usson-en-Forez"</em>, dans le département de la Loire. Dessous le texte vous
+              trouverez les images des différents changements de bannières(fig_1. la bannière des archers 
+              d'Usson-en-Forez, fig_2. la bannière des Sagittarii Liger). Depuis 2017 elle ce renomme en
+              <em>"Sagittarii Liger"</em> traduit du latin en <em>"Archers de la Loire"</em>, pour toucher un plus vaste
+              territoire. Pour finir notre association regroupe plusieurs passionnés d'archerie moderne
+              et médiéval, plus précisément du <em>14ème siècle</em> qui fut une période durant laquelle les
+              différentes guerres on mis en valeur cette arme.
+            </p>
+            <div class="bannieres d-md-flex d-lg-flex justify-content-md-around justify-content-lg-around text-center">
+              <div class="text-center mt-3 text-light">
+                <img class="img-fluid" src="images/uef_flag.jpg" class="figure-img" alt="...">
+                <p>fig_1</p>
+              </div>
+              <div class="text-center mt-3 text-light">
+                <img class="img-fluid" src="images/sag_flag.jpg" class="figure-img" alt="...">
+                <p>fig_2</p>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+      <div class="col-sm-12 col-md-10 col-lg-8 mx-auto mt-5">
+        <!-- Déclaration du composant -->
+        <div class="card  bg-black border-0 rounded-0 text-center">
+          <!-- Image située en haut -->
+          <div class="container-img mb-5">
+            <img class="img-fluid mx-auto mb-1 mt-1 w-25" src="images/archer1.jpg" class="card-img-top" alt="">
+          </div>
+        </div>  
+          <!-- Corps de la carte -->
+        <div class="card-body">
+          <!-- Titre -->
+          <h2 class="card-title text-light p-2 mb-3 text-center"><u>Nos Activités</u></h2>
+          <div class="container-text m-3">
+            <p class="card-text p-2 text-start text-light">
+              &emsp;Notre principale activité est la pratique du <em>tir à l'arc instinctif</em>, qui veut dire sans
+              viseurs, avec des arcs <em>longbows</em>, <em>flatbows</em> ou type mongol(<em>arc à cheval</em>) qui peuvent être primitifs
+              c'est a dire qui sont confectionnés à base d'éléments naturel tel que du bois, des tendons 
+              d'animaux etc.. ou plus modernes avec des matières comme du carbone ou des bois plastifié. Depuis
+              peu, nous avons introduit la pratique du tir instinctif avec des <em>arbalètes</em>. Pour pratiquer notre
+              activité nous donnons des cours en salle ou et à l'extérieur sur des terrains, ou champs pour les
+              tirs longues distances.
+              Ensuite plusieurs fois dans l'année, différentes associations organisent des <em>Tournois d'archerie
+              médiéval</em> où chaque participant doit respecter des normes vestimentaires et accessoires afin d'y
+              participer. Une autre activité importante pour faire vivre notre association est de faire des 
+              prestations lors de <em>fêtes médiévales</em> durant lesquelles nous prenons part à des reconstitutions de 
+              batailles et où nous initions le public à notre pratique. Ces moments nous sont d'autant plus
+              précieux car nous les vivons dans un cadre historique, tel qu'un camps de soldats au moyen-âge.
+              Enfin pour nos nouveaux adhérents des ateliers de fabrication d'accessoires comme des flêches,
+              des carquois et des canons d'avant-bras sont programmés pendant l'hiver, vu que les évènements
+              se font plutôt rares.
+            </p>
+          </div>
+        </div>    
+      </div>
+      <div class="col-sm-12 col-md-10 col-lg-8 mx-auto mt-5">
+        <!-- Déclaration du composant -->
+        <div class="card  bg-black border-0 rounded-0 text-center">
+          <!-- Image située en haut -->
+          <div class="container-img mb-5">
+            <img class="img-fluid mx-auto mb-1 mt-1 w-25" src="images/cours.jpg" class="card-img-top" alt="">
+          </div>
+        </div>  
+          <!-- Corps de la carte -->
+        <div class="card-body">
+          <!-- Titre -->
+          <h2 class="card-title text-light p-2 mb-3 text-center"><u>Entrainements</u></h2>
+          <div class="container-text m-3">
+            <p class="card-text p-2 text-start text-light">
+              &emsp;Pour pratiquer et s'améliorer, quoi de plus pédagogique que de le faire ludiquement.
+              Tout nos entrainements utilisent des accessoires la plupart fabriqués par nos soins:<br> 
+              - cibles en mousse,<br>
+              - posters d'animaux,<br>
+              - gonflage de ballons,<br>
+              - différentes balles (ping pong, tennis),<br>
+              - bouchons de bouteilles,<br>
+              - objets mouvants a l'aide de cordes<br>
+              et bien d'autres idées farfelues comme de tirer sur une jambe ou à genoux et même les yeux fermés. 
+              ainsi deux fois par semaine en salle ou en extérieur nous nous réunissons pour aider les nouveaux 
+              adhérents à s'équiper, leur apprendre les bases et surtout la sécurité, car l'arc reste tout de 
+              même une arme dangereuse si on ne fait pas attention aux autres, et aussi continuer à faire 
+              progresser les archers plus expérimentés. Pour conclure les entrainements, ceux à l'extérieur sont
+              propices aux tirs longues distances car lors de tournois ou de reconstitutions de batailles ils
+              faut réussir à maitriser les éléments comme le vent ou les distances.
+            </p>
+          </div>
+        </div>    
+      </div>
+      <div class="col-sm-12 col-md-10 col-lg-8 mx-auto mt-5">
+        <!-- Déclaration du composant -->
+        <div class="card  bg-black border-0 rounded-0 text-center">
+          <!-- Image située en haut -->
+          <div class="container-img mb-5">
+            <img class="img-fluid mx-auto mb-1 mt-1 w-25" src="images/tournois.jpg" class="card-img-top" alt="">
+          </div>
+        </div>  
+          <!-- Corps de la carte -->
+        <div class="card-body">
+          <!-- Titre -->
+          <h2 class="card-title text-light p-2 mb-3 text-center"><u>Tournois</u></h2>
+          <div class="container-text m-3">
+            <p class="card-text p-2 text-start text-light">
+              &emsp;Les tournois sont des évènements très attendus spécialement à titre individuel mais aussi
+              pour représenter notre association. Avec l'arrivée du printemps fleurissent les tournois 
+              d'<em>archerie médiéval</em>. C'est là que l'on ressort les vieux costumes et accessoires pour replonger
+              dans la <em>période médiévale</em> car les organisateurs de ces joutes, qui durent tout un week-end, veulent 
+              assurer un minimum de spectacle pour les quelques locaux curieux ou les touristes cherchant des activités.
+              Mais aussi parceque le nom de tournois médiéval n'aurait plus de sens. Et puis nous aimons ca!
+              Enfn ces rencontres nous emmenent à revoir des amis qui partagent la même passion et échangent
+              leur connaissances et conseils. Bref, les tournois font énormément progresser.
+            </p>
+          </div>
+        </div>    
+      </div>
+      <div class="col-sm-12 col-md-10 col-lg-8 mx-auto mt-5">
+        <!-- Déclaration du composant -->
+        <div class="card  bg-black border-0 rounded-0 text-center">
+          <!-- Image située en haut -->
+          <div class="container-img mb-5">
+            <img class="img-fluid mx-auto mb-1 mt-1 w-25" src="images/fetes.jpg" class="card-img-top" alt="">
+          </div>
+        </div>  
+          <!-- Corps de la carte -->
+        <div class="card-body">
+          <!-- Titre -->
+          <h2 class="card-title text-light p-2 mb-3 text-center"><u>Fêtes et reconstitutions</u></h2>
+          <div class="container-text m-3">
+            <p class="card-text p-2 text-start text-light">
+              &emsp;Tout l'été de nombreuses fêtes médiévales sont organisées pour faire revivre le temps d'un 
+              week-end le <em>patrimoine historique</em> au public nombreux pendant ces périodes de vacances. Les
+              organisateurs demandent donc aux diverses associations de leur communiquer leurs activtés et leurs
+              tarifs. Nous envoyons donc notre devis de prestation qui servira à acheter du nouveau matériel ou 
+              à renover pour faire vivre notre vie associative. Lors de ces rassemblements nous aménageons un
+              camps de vie sur lequel nous installons tentes, tables, bancs, coin feu pour la cuisine et 
+              décorations diverses en accord avec la période de l'histoire qui nous correspond. Autour de ce 
+              campement sera intégré notre pas de tir avec différentes cibles pour l'<em>initition au tir à l'arc</em>
+              au public et au tournois d'archerie où participeront les archers des différentes associations
+              présent aux festivités. Durant ces fêtes il y a de nombreuses autres animations pour combler 
+              les moments creux comme les bénédictions de banières ou des défilés. Enfin des reconstitutions 
+              de batailles sont mises en place avec combattants, canonniers etc.. et bien sûr notre compagnie 
+              qui assurera l'organisation des lignes d'archers et des tirs ordonnés sur les chevaliers en
+              armures. Les flêches pour ces tirs sont spécialement prévues avec des embouts en caoutchouc pour 
+              éviter tout accident dommageable. 
+            </p>
+          </div>
+        </div>    
+      </div>
+      <div class="col-sm-12 col-md-10 col-lg-8 mx-auto mt-5 mb-5">
+        <!-- Déclaration du composant -->
+        <div class="card  bg-black border-0 rounded-0 text-center">
+          <!-- Image située en haut -->
+          <div class="container-img mb-5">
+            <img class="img-fluid mx-auto mb-1 mt-1 w-25" src="images/atelier.jpg" class="card-img-top" alt="">
+          </div>
+        </div>  
+          <!-- Corps de la carte -->
+        <div class="card-body">
+          <!-- Titre -->
+          <h2 class="card-title text-light p-2 mb-3 text-center"><u>Ateliers</u></h2>
+          <div class="container-text m-3">
+            <p class="card-text p-2 text-start text-light">
+              &emsp;Gagner de l'argent en se formant, c'est le but de ces <em>ateliers de fabrication</em> ou de
+              réparation. Quand les recrues sont arrivés il faut qu'ils aient un minimum de matériel. Même si
+              l'associaion met à disposition l'arc et les flèches la première année, on ne peut pas fournir les 
+              protections aux mesures des adhérents. Il achetera les divers protections, peu coûteuses, 
+              nécessaires pour éviter les petits bleus comme les <em>canons d'avants-bras</em> ou bien les gants pour
+              les douleur aux doigts dues au <em>bandage de l'arc</em>. Mais pour ceux qui souhaitent pratiquer l'arc de façon
+              plus historique, plusieurs journées sont consacrées à des ateliers cuir où les plus anciens
+              apportent les outils adéquates et forment les nouveaux à la réalisation des ouvrages. La matiére
+              première sera à la charge des participants. Ainsi seront fabriqués les canons d'avant bras, les carquois,
+              gants etc..Un autre atelier, très important celui là, est de savoir monter ces propres flêches. 
+              Pour pouvoir personnaliser à son goût la couleur des plumes, les pointes et les fûts, bois ou métal
+              une commande groupée sera réalisée et l'atelier sera programmé. Pour terminer sur le sujet, Après 
+              que la saison des évènements soit passée, l'association demande des volontaires afin de faire un
+              inventaire et un atelier de remise en état du matériel tel que les tentes, la ciblerie, tables et 
+              autres.
+            </p>
+          </div>
+        </div>    
+      </div>
+    </main> 
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-  </body>
-</html>
+  </body>    
+</html>  
+
