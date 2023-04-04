@@ -11,7 +11,6 @@
 .item{
   font-size: 0.7em;
 }
-
 .card{
   border:solid 1px red;
   border-radius:5px;
@@ -23,6 +22,10 @@
 .img-fluid{
   max-width:520px;
   height:auto;
+}
+.container-text-img{
+  background-color: #015e05;
+  border-radius: 5px;
 }
 .container-text{
   background-color: #015e05;
