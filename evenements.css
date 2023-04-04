@@ -34,3 +34,7 @@
   background-color: red;
   border-radius:5px;
 }
+footer{
+  height: 100px;
+  background-image: url("images/bg_footer.jpg");
+}
